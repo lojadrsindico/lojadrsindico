@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
    <section class="top">
       <div class="top-buttons">
          <button id="chat">Atendimento via chat</button>
@@ -18,10 +18,10 @@
          <div class="logo">
             Logo
          </div>
-         <nav>
-            <ul class="nav nav-pills justify-content-end">
-               <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-               <li class="nav-item"><a href="#" class="nav-link">A empresa</a></li>
+         <nav class="navbar navbar-expand-xl">
+            <ul class="nav justify-content-end">
+               <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+               <li class="nav-item"><a href="#empresa" class="nav-link">A empresa</a></li>
                <li class="nav-item"><a href="#" class="nav-link">Associados</a></li>
                <li class="nav-item"><a href="#" class="nav-link">Clientes</a></li>
                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
@@ -29,7 +29,8 @@
          </nav>
       </div>
    </section>
-   <section class="slideshow">
+   <section class="slideshow" id="home">
+      <article class="panel">
          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                <ol class="carousel-indicators">
                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -56,10 +57,51 @@
                  <span class="sr-only">Next</span>
                </a>
              </div>
-   </section>
-   <section class="quotes">
-      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
-      <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel" id="empresa">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
+      <article class="quotes panel">
+         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
+         <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
+      </article>
    </section>
 
 <!-- Optional JavaScript -->
@@ -67,5 +109,14 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+   $(window).on('scroll',function(){
+      if($(window).scrollTop()){
+         $('.top-site').addClass('fixed');
+      }else{
+         $('.top-site').removeClass('fixed');
+      }
+   });
+</script>
 </body>
 </html>
