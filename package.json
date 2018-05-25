@@ -1,0 +1,11 @@
+{
+  "name": "drsindico",
+  "version": "1.0.0",
+  "description": "landing page da loja do dr sindico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laércio Bernardo (iUPi Tecnologia)",
+  "license": "ISC"
+}

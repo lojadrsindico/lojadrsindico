@@ -1,0 +1,36 @@
+body{
+   font-family: 'Raleway', sans-serif;
+}
+
+.top-buttons{
+   text-align: end;
+}
+
+.top-site{
+   display: flex;
+   flex-direction: column;
+}
+
+.logo{
+   justify-content: flex-start;
+   width: 10vw;
+   height: 30vh;
+   background-color: rebeccapurple;
+}
+
+.quotes{
+   width: 50%;
+   margin: 0 auto;
+   border-left: 10px #e0e0e0 solid;
+   padding: 20px;
+   box-sizing: border-box;
+   margin-top: 20px;
+}
+
+.quotes h5{
+   font-weight: bolder;
+}
+
+.quotes span{
+   font-style: italic;
+}
