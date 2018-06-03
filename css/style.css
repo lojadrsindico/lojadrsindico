@@ -48,7 +48,7 @@ nav > ul.nav{
    position: fixed;
    top: 0;
    z-index: 9999;
-   background-color: rgba(0, 0, 0, 0.5);
+   background-color: rgba(255, 255, 255, 0.5);
    width: 100vw;
    height: 10vh;
 }
@@ -91,4 +91,45 @@ nav > ul > a{
 
 .quotes span{
    font-style: italic;
+}
+.empresa.panel h5, .patrocinadores.panel h5, .associados.panel h5, 
+.clientes.panel h5, .contato.panel h5{
+   font-size: 3em;
+   text-align: center;
+   font-weight: bolder;
+   padding: 2em;
+}
+
+.empresa-container{
+   display: flex;
+   flex-direction: row;
+   flex:10;
+   justify-content: space-between;
+   /* padding: 3em; */
+}
+
+.empresa-img{
+   width: 10vw;
+   height: 10vh;
+   background-color: #0044af;
+   flex: 2;
+}
+
+.patrocinadores.panel > .row{
+   padding: 5em;
+   display: flex;
+   justify-content: space-between;
+}
+
+.empresa-sobre{
+   flex: 7;
+   padding-left: 3em;
+}
+
+.patrocinadores.panel > .row > .card{
+   width: 18em;
+}
+
+.associados.panel{
+   padding: 3em;
 }
