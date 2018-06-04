@@ -18,6 +18,7 @@ body{
    /* background-color: green; */
    height: 10vh;
    padding: 0;
+   margin-left: 2rem;
 }
 
 nav{
@@ -73,10 +74,13 @@ nav > ul > a{
 .logo{
    float: left;
    justify-content: flex-start;
-   width: 20vw;
-   height: 30vh;
+   width: 30vw;
+   height: 26vh;
    padding: 2rem;
    transition: 0.5s;
+   background-image: url('/img/logos/Dr.\ Sindico.svg');
+   background-size: contain;
+   background-repeat: no-repeat;
 }
 
 .quotes{
@@ -130,4 +134,22 @@ nav > ul > a{
 
 .empresa.panel, .patrocinadores.panel, .associados.panel, .clientes.panel {
    padding: 4em;
+}
+
+.contact-content{
+   display: flex;
+   justify-content: space-between;
+   flex: 10;
+   padding: 3rem;
+}
+.map{
+   background-color: #ccc;
+   width: 10vw;
+   height: 54vh;
+   flex: 5;
+}
+
+.formulario{
+   flex: 5;
+   padding: 0 3rem;
 }

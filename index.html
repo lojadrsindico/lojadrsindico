@@ -19,7 +19,7 @@
       </div>
       <div class="top-site">
          <div class="logo">
-            <img class="card-img-top" src="http://placehold.it/352x200" alt="Card image cap">
+            <!-- <img class="card-img-top" src="http://placehold.it/352x200" alt="Card image cap"> -->
          </div>
          <nav class="navbar navbar-expand-xl">
             <ul class="nav justify-content-end">
@@ -30,13 +30,13 @@
                   <a href="#empresa" class="nav-link">A empresa</a>
                </li>
                <li class="nav-item">
-                  <a href="#" class="nav-link">Associados</a>
+                  <a href="#associados" class="nav-link">Associados</a>
                </li>
                <li class="nav-item">
-                  <a href="#" class="nav-link">Clientes</a>
+                  <a href="#clientes" class="nav-link">Clientes</a>
                </li>
                <li class="nav-item">
-                  <a href="#" class="nav-link">Contato</a>
+                  <a href="#contato" class="nav-link">Contato</a>
                </li>
             </ul>
          </nav>
@@ -78,7 +78,7 @@
          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci deleniti accusamus vero natus delectus</h5>
          <span>similique optio harum at autem dolorum in sunt! A hic odio consequuntur sequi eius officia iste minima quas?</span>
       </article>
-      <article class="empresa panel">
+      <article class="empresa panel" id="empresa">
          <h5>A Empresa</h5>
          <div class="empresa-container">
             <div class="empresa-img">
@@ -128,7 +128,7 @@
             </div>
          </div>
       </article>
-      <article class="associados panel">
+      <article class="associados panel" id="associados">
          <h5>Associados</h5>
          <div class="row text-center text-lg-left">
 
@@ -194,36 +194,38 @@
             </div>
          </div>
       </article>
-      <article class="clientes panel">
+      <article class="clientes panel" id="clientes">
          <h5>Clientes</h5>
          <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/VpJ6J-OnwKc" frameborder="0" allow="autoplay; encrypted-media"
                allowfullscreen></iframe>
          </div>
       </article>
-      <article class="contato panel">
+      <article class="contato panel" id="contato">
          <h5>Contato</h5>
-         <div class="map"></div>
-         <div class="formulario">
-            <form>
-               <div class="input-group">
-                  <label for="nome"></label>
-                  <input type="text" name="nome" id="nome">
-               </div>
-               <div class="input-group">
-                  <label for="email"></label>
-                  <input type="email" name="email" id="email">
-               </div>
-               <div class="input-group">
-                  <label for="telefone"></label>
-                  <input type="telefone" name="telefone" id="telefone">
-               </div>
-               <div class="input-group">
-                  <label for="mensagem"></label>
-                  <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-               </div>
-               <button type="submit">Enviar</button>
-            </form>
+         <div class=" contact-content embed-responsive embed-responsive-16by9">
+            <div class="map "></div>
+            <div class="formulario">
+               <form>
+                  <div class="form-group">
+                     <label for="nome">Nome</label>
+                     <input class="form-control" type="text"  name="nome" id="nome">
+                  </div>
+                  <div class="form-group">
+                     <label for="email">E-mail</label>
+                     <input class="form-control" type="email" name="email" id="email">
+                  </div>
+                  <div class="form-group">
+                     <label for="telefone">Telefone</label>
+                     <input class="form-control" type="telefone" name="telefone" id="telefone">
+                  </div>
+                  <div class="form-group">
+                     <label for="mensagem">Mensagem</label>
+                     <textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-success">Enviar</button>
+               </form>
+            </div>
          </div>
 
       </article>
