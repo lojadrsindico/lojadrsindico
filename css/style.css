@@ -1,7 +1,7 @@
 body{
    font-family: 'Raleway', sans-serif;
    transition: .5s;
-   background: linear-gradient(#fff,#F1FF9D);
+   background: #C7DB8A;
 }
 
 .top-buttons{
@@ -12,10 +12,10 @@ body{
    flex-direction: row;
    justify-content: space-between;
    transition: .5s;
+   background: linear-gradient(#ECF6CF, #E2F2B4);
 }
 
 .top-site.fixed .logo{
-   /* background-color: green; */
    height: 10vh;
    padding: 0;
    margin-left: 2rem;
@@ -29,18 +29,19 @@ nav > ul.nav{
    align-items: flex-end;
 }
 .nav-item > a{
-   color: green;
+   color: #2472c5;
    text-transform: uppercase;
+   font-weight: bolder;
 }
 
 .nav-item > a:hover{
-   background-color: green;
+   background-color: #2472c5;
    color: #fff;
    transition: 0.5s;
 }
 
 .nav-link.active,  .show>.nav-link{
-   background-color: green;
+   background-color: #2472c5;
    color: #fff;
    transition: 0.5s;
 }
@@ -49,7 +50,7 @@ nav > ul.nav{
    position: fixed;
    top: 0;
    z-index: 9999;
-   background-color: rgba(255, 255, 255, 1);
+   background: #fff;
    width: 100vw;
    height: 10vh;
 }
@@ -90,6 +91,7 @@ nav > ul > a{
    padding: 20px;
    box-sizing: border-box;
    margin-top: 20px;
+   margin-bottom: 20px;
 }
 
 .quotes h5{
@@ -107,6 +109,10 @@ nav > ul > a{
    padding: 2em;
 }
 
+.empresa.panel{
+   background-color: #fff;
+}
+
 .empresa-container{
    display: flex;
    flex-direction: row;
@@ -121,11 +127,6 @@ nav > ul > a{
    flex: 2;
 }
 
-.patrocinadores.panel > .row{
-   padding: 5em;
-   display: flex;
-   justify-content: space-between;
-}
 
 .empresa-sobre{
    flex: 7;
@@ -134,6 +135,20 @@ nav > ul > a{
 
 .empresa.panel, .patrocinadores.panel, .associados.panel, .clientes.panel {
    padding: 4em;
+}
+
+.patrocinadores.panel > .row{
+   padding: 5em;
+   display: flex;
+   justify-content: space-between;
+}
+
+.associados.panel{
+   background-color: #fff;
+}
+
+.contato.panel{
+   background-color: #fff;
 }
 
 .contact-content{
