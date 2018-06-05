@@ -1,10 +1,10 @@
 body{
    font-family: 'Raleway', sans-serif;
    transition: .5s;
+   background: linear-gradient(#fff,#F1FF9D);
 }
 
 .top-buttons{
-   /* text-align: end; */
    display: none;
 }
 .top-site{
