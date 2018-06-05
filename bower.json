@@ -1,0 +1,21 @@
+{
+  "name": "drsindico",
+  "description": "landing page da loja do dr sindico",
+  "main": "index.js",
+  "authors": [
+    "Laércio Bernardo (iUPi Tecnologia)"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "directory": "/lib",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "aos": "^2.3.0"
+  }
+}

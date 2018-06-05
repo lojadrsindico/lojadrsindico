@@ -99,8 +99,8 @@ nav > ul > a{
 .quotes span{
    font-style: italic;
 }
-.empresa.panel h5, .patrocinadores.panel h5, .associados.panel h5, 
-.clientes.panel h5, .contato.panel h5{
+.empresa.panel h4, .patrocinadores.panel h4, .associados.panel h4, 
+.clientes.panel h4, .contato.panel h4{
    font-size: 3em;
    text-align: center;
    font-weight: bolder;
