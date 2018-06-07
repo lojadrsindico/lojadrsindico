@@ -12,7 +12,10 @@ body{
    flex-direction: row;
    justify-content: space-between;
    transition: .5s;
-   background: linear-gradient(#ECF6CF, #E2F2B4);
+   background-color: #fff;
+   background-image: url('../img/folhas.png');
+   background-repeat: repeat-x;
+   /* background: linear-gradient(#ECF6CF, #E2F2B4); */
 }
 
 .top-site.fixed .logo{
@@ -53,6 +56,9 @@ nav > ul.nav{
    background: #fff;
    width: 100vw;
    height: 10vh;
+   -webkit-box-shadow: 2px 5px 12px -8px rgba(0,0,0,1);
+   -moz-box-shadow: 2px 5px 12px -8px rgba(0,0,0,1);
+   box-shadow: 2px 5px 12px -8px rgba(0,0,0,1);
 }
 
 .fixed img{
@@ -73,15 +79,13 @@ nav > ul > a{
 }
 
 .logo{
-   float: left;
-   justify-content: flex-start;
    width: 30vw;
    height: 26vh;
-   padding: 2rem;
    transition: 0.5s;
    background-image: url('/img/logos/Dr.\ Sindico.svg');
    background-size: contain;
    background-repeat: no-repeat;
+   margin-left: 3rem;
 }
 
 .quotes{
