@@ -134,14 +134,17 @@ nav > ul > a{
 }
 
 .empresa-img{
-   width: 10vw;
-   height: 10vh;
-   flex: 2;
+   /* width: 300px;
+   height: 300px; */
+   flex: 4;
+   background-image: url('../img/fachada.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
 }
 
 
 .empresa-sobre{
-   flex: 7;
+   flex: 6;
    padding-left: 3em;
 }
 
