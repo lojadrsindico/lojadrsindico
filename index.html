@@ -20,32 +20,32 @@
       </div>
       <div class="top-site">
          <div class="logo"></div>
-         <nav class="navbar navbar-expand-md navbar-light">
-            <div class="collapse navbar-collapse" id="collapse_target">
-               <ul class="navbar-nav">
-                  <li class="nav-item">
-                     <a href="#home" class="nav-link">Home</a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="#empresa" class="nav-link">A empresa</a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="#associados" class="nav-link">Associados</a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="#clientes" class="nav-link">Clientes</a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="#contato" class="nav-link">Contato</a>
-                  </li>
-               </ul>
-            </div>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-         </nav>
       </div>
    </header>
+   <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="collapse_target">
+         <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+               <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+               <a href="#empresa" class="nav-link">A empresa</a>
+            </li>
+            <li class="nav-item">
+               <a href="#associados" class="nav-link">Associados</a>
+            </li>
+            <li class="nav-item">
+               <a href="#clientes" class="nav-link">Clientes</a>
+            </li>
+            <li class="nav-item">
+               <a href="#contato" class="nav-link">Contato</a>
+            </li>
+         </ul>
+      </div>
+      <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#collapse_target">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+   </nav>
    <section class="slideshow" id="home">
       <article class="panel">
          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -245,11 +245,11 @@
    <script src="/lib/aos/dist/aos.js"></script>
    <script>
       $(window).on('scroll', function () {
-         if ($(window).scrollTop()) {
-            $('.top-site').addClass('fixed');
+         if ($(window).scrollTop() && window.scrollY > 200) {
+            $('.navbar').addClass('fixed');
             
          } else {
-            $('.top-site').removeClass('fixed');
+            $('.navbar').removeClass('fixed');
          }
       });
       AOS.init();

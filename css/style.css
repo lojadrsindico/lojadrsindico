@@ -4,14 +4,11 @@ body{
    background: #C7DB8A;
 }
 
-.top{
-   height: 200px;
-}
-
 .top-buttons{
    display: none;
 }
 .top-site{
+   height: 200px;;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -22,20 +19,12 @@ body{
    /* background: linear-gradient(#ECF6CF, #E2F2B4); */
 }
 
-.top-site.fixed .logo{
+/* .top-site.fixed .logo{
    height: 10vh;
    padding: 0;
    margin-left: 2rem;
-}
-/* 
-navbar{
-   /* display: flex; */
-   /* width: 50vw; */
-   background-color: red;
 } */
-/* navbar > ul.navbar-nav{
-   align-items: flex-end;
-} */
+
 .nav-item > a{
    color: #2472c5;
    text-transform: uppercase;
@@ -57,7 +46,7 @@ navbar{
 
 }
 
-.fixed{
+/* .fixed{
    position: fixed;
    top: 0;
    z-index: 9999;
@@ -67,12 +56,24 @@ navbar{
    -webkit-box-shadow: 2px 5px 12px -8px rgba(0,0,0,1);
    -moz-box-shadow: 2px 5px 12px -8px rgba(0,0,0,1);
    box-shadow: 2px 5px 12px -8px rgba(0,0,0,1);
-}
+} */
 
-.fixed img{
+/* .fixed img{
    height: 10vh;
-}
+} */
 
+.fixed:before{
+   content: '';
+   height: 80px;
+   width: 50px;
+   background: url('../img/logos/Dr.\ Sindico.svg');
+   background-size: 100% 100%;
+   width: 10%;
+   height: 400%;
+   position: absolute;
+   top:-6;
+   left:10
+}
 
 .panel{
    -webkit-transform: translateZ( 0 );
@@ -89,7 +90,7 @@ nav > ul > a{
 
 .logo{
    width: 350px;
-   height: 300px;
+   height: 250px;
    transition: 0.5s;
    background-image: url('/img/logos/Dr.\ Sindico.svg');
    background-size: contain;
