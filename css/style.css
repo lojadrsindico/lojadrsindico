@@ -62,17 +62,16 @@ body{
    height: 10vh;
 } */
 
-.fixed:before{
-   content: '';
-   height: 80px;
-   width: 50px;
+.fixed > span{
+   /* content: ''; */
+   height: 70px;
+   /* width: 50px; */
    background: url('../img/logos/Dr.\ Sindico.svg');
    background-size: 100% 100%;
-   width: 10%;
-   height: 400%;
-   position: absolute;
-   top:-6;
-   left:10
+   width: 20%;
+   /* position: absolute; */
+   top:0;
+   /* left:10 */
 }
 
 .panel{
