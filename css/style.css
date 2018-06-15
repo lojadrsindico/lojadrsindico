@@ -1,3 +1,6 @@
+*{
+   box-sizing: border-box;
+}
 body{
    font-family: 'Raleway', sans-serif;
    transition: .5s;
@@ -63,15 +66,11 @@ body{
 } */
 
 .fixed > span{
-   /* content: ''; */
    height: 70px;
-   /* width: 50px; */
    background: url('../img/logos/Dr.\ Sindico.svg');
    background-size: 100% 100%;
-   width: 20%;
-   /* position: absolute; */
+   width: 10%;
    top:0;
-   /* left:10 */
 }
 
 .panel{
@@ -172,11 +171,11 @@ nav > ul > a{
    justify-content: space-between;
    flex: 10;
    padding: 3rem;
+   flex-wrap: wrap;
 }
 .map{
-   background-color: #ccc;
-   width: 10vw;
-   height: 54vh;
+   width: 500px;
+   height: 600px;
    flex: 5;
 }
 
