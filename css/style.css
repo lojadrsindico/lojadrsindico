@@ -174,7 +174,6 @@ nav > ul > a{
    flex-wrap: wrap;
 }
 .map{
-   width: 500px;
    height: 600px;
    flex: 5;
 }
@@ -182,4 +181,21 @@ nav > ul > a{
 .formulario{
    flex: 5;
    padding: 0 3rem;
+   min-width: 400px;
+}
+
+/* .social-media h4{
+   text-align: center;
+} */
+
+.social-media ul{
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.social-media ul li{
+   width: 50px;
 }
